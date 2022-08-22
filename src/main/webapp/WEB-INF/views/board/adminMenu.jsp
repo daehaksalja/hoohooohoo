@@ -81,7 +81,7 @@ body {
 <div class="neon_effect">
 		<button type="submit" id="enrollBtn" class="mainBtn2">
 			<div class="back">
-				<a href="/adminMenu/goodsEnroll" class="btn btn--1"><p class="btnText">상품 등록</p></a>
+				<a href="/adminMenu/goodsEnroll" class="btn btn--1"><p class="btnText">게시글 등록</p></a>
 
 			</div>
 		</button>
@@ -89,7 +89,7 @@ body {
  <div class="neon_effect">
 		<button type="submit" id="enrollBtn" class="mainBtn3">
 			<div class="back">
-				<a href="/adminMenu/goodsManage" class="btn btn--1"><p class="btnText">상품 목록</p></a>
+				<a href="/adminMenu/goodsManage" class="btn btn--1"><p class="btnText">게시글 목록</p></a>
 
 			</div>
 		</button>

@@ -30,9 +30,9 @@
 				<thead class="neon_effect">
 
 					<tr>
-						<td class="th_column_1">상품 번호</td>
-						<td class="th_column_2">상품 이름</td>
-						<td class="th_column_3">재고</td>
+						<td class="th_column_1">게시글 번호</td>
+						<td class="th_column_2">게시글 제목</td>
+						<td class="th_column_3">게시글 내용</td>
 						<td class="th_column_4">등록날짜</td>
 					</tr >
 

@@ -108,12 +108,13 @@ body {
 
 
 
-               <div class="mail_wrap">
+              
+              <div class="mail_wrap">
                   <input type="email" name="user_email" id="email" class="input-ty1"
                      placeholder="이메일" />
                   <div class="email regex"></div>
 
-                  <div class="mail_check_wrap">
+                  <!-- <div class="mail_check_wrap">
                      <div class="mail_check_input_box" id="mail_check_input_box_false">
                         <input class="mail_check_input" id="mail_check_input"
                            disabled="disabled" placeholder="인증번호를 입력해주세요. (ex:123456)">
@@ -123,8 +124,8 @@ body {
                      </div>
                      <div class="clearfix"></div>
                      <span id="mail_check_input_box_warn" class="emailCheck regex"></span>
-                  </div>
-               </div>
+                  </div> -->
+               </div> 
 
 
 
@@ -495,7 +496,7 @@ body {
                               }
                               )
                      })
-         /* 인증번호 이메일 전송 */
+/* 인증번호 이메일 전송 */
          $(".mail_check_button").click(function() {
             var email = $("#email").val();
             var cehckBox = $(".mail_check_input"); // 인증번호 입력란
@@ -624,7 +625,7 @@ body {
                                  return;
                               } else if (div2 == "사용가능") {
                                  
-                               if (divEmailCheck == "") {
+                            /*  if (divEmailCheck == "") {
                                     $("#errorMsg").show();
                                     $("#errorMsg").html(
                                           "이메일 인증을 완료해주십쇼.");
@@ -636,9 +637,10 @@ body {
                                              .html(
                                                    "인증번호를 다시 확인해주세요.ex:181818");
                                     } else if (divEmailCheck == "인증번호가 일치합니다.") {
-                                       $("#signform").submit();
+                                      이메일 기능시 서밋넣는곳
                                     }
-                                 }
+                                 } */
+                               $("#signform").submit();
                                  //빈칸 없을 때 제출.
                               }
                               }}

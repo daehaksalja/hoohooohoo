@@ -11,7 +11,7 @@
 	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 	crossorigin="anonymous"></script>
 <link rel="stylesheet" href="../../../resources/css/goodsDetail2.css">
-<style>
+<style type="text/css">
 /* 비디오 배경 */
 #videobcg {
 	position: absolute;
@@ -53,15 +53,17 @@ body {
 
 
 
-	
+
 
 	<a href="/"><button class="goHomeBtn">SPACE SHIP</button></a>
-<video id="videobcg" preload="auto" autoplay="true" loop="loop"
+
+	<video id="videobcg" preload="auto" autoplay="autoplay" loop="loop"
 			muted="muted">
 
-			<source src="../../../webapp/resources/css/spaceGalaxy.mp4" type="video/mp4">
+		<source src="/resources/css/adobeVideo/cloudSmall.mp4"
+			type="video/mp4">
 
-		</video>
+	</video>
 
 
 	<div class="wrapper">
